@@ -8,6 +8,10 @@ import DetailedProduct from "./Components/DetailedProduct";
 import Home from "./Components/Home";
 import Cart from "./Components/Cart";
 import Footer from "./Components/Footer";
+import Men from "./Components/Men"
+import Women from "./Components/Women";
+import Electronic from "./Components/Electronic";
+import Jewelries from "./Components/Jewelries";
 
 
 const App = ()=>{
@@ -57,6 +61,10 @@ const clearCart = () => {
          <Routes>
             <Route exact path="/" element={<Home />}/>
             <Route path="/Market" element={ <ProducstList />} />
+            <Route path="/Men"element={ <Men /> } />
+            <Route path="/Women" element={ <Women /> } />
+            <Route path="/Jewelries" element={ <Jewelries /> } />
+            <Route path="/Electronic" element={ <Electronic /> } />
             <Route path="/products/:id" element={ <DetailedProduct addToCart={addToCart} cart={cartItems}/>} />
             <Route path="/Cart" element={ <Cart cartItems={cartItems} removeFromCart={removeFromCart} clearCart={clearCart} removeClearCartMessage={removeClearCartMessage} /> } />
          </Routes>

@@ -858,6 +858,12 @@ h1,h2,h3,h4,h5,p{
    color: #d107d1;
 }
 
+.General_Wrapper_Design{
+   margin: 30px auto;
+   flex-grow: 1;
+   width: 100%;
+   background-color: #fff;
+}
 
 @media screen and (max-width:1170px) {
    .Products_List{

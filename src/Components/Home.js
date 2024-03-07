@@ -15,28 +15,28 @@ const Home = ()=>{
             <div className="Home_Top_Wrapper">
             <div className="Category_Wrapper">
                   <div className="CatDesign">
-                     <Link to="#"> 
+                     <Link to="/Men"> 
                         <FaUserTie className="CatIcon" />
                         <p>Men</p>
                      </Link>
                   </div>
 
                   <div className="CatDesign">
-                     <Link to="#">
+                     <Link to="/Women">
                         <GiSkirt className="CatIcon" />
                         <p>Women</p>
                      </Link>
                   </div>
 
                   <div className="CatDesign">
-                     <Link to="#">
+                     <Link to="/Electronic">
                         <RiComputerFill className="CatIcon" />
                         <p>Electronic</p>
                      </Link>
                   </div>
 
                   <div className="CatDesign">
-                     <Link to="#"> 
+                     <Link to="/Jewelries"> 
                         <IoDiamond  className="CatIcon" />
                         <p>Jewelries</p>
                      </Link>
