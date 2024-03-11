@@ -63,9 +63,9 @@ const Jewelries = ()=>{
             {error && <Error message={error} />}
 
             {products.length > 0 && (
-            <div className="Products_List" style={{padding:products.length > 0 ? "10px 5px": ""}}>
+            <div className=" Jewelries_Section" style={{padding:products.length > 0 ? "10px 5px": ""}}>
                {products.map((Product, index) => (
-                  <div className="Specific_Product" key={index}>
+                  <div className="Specific_Product " key={index}>
                         <div className="Image_Wrap">
                            <img className="Images" src={Product.image} alt={Product.title} />
                         </div>

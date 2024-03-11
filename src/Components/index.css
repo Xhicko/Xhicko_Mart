@@ -331,6 +331,16 @@ h1,h2,h3,h4,h5,p{
    font-weight: 400;
 }
 
+.Jewelries_Section{
+   width: 100%;
+   max-width: 500px;
+   margin: 20px auto;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 10px;
+   background-color: #00000010;
+}
+
 .Products_List{
    width: 95%;
    margin: 10px auto;
@@ -871,6 +881,12 @@ h1,h2,h3,h4,h5,p{
       grid-template-columns: repeat(4, 1fr);
   }
 
+  .Jewelries_Section{
+   width: 100%;
+   max-width: 500px;
+}
+
+
   .Load_Button{
    width:20%;
 }
@@ -993,7 +1009,8 @@ h1,h2,h3,h4,h5,p{
       text-shadow: 2px 2px #000;
    }
 
-   .Products_List{
+   .Products_List,
+   .Jewelries_Section{
       width: 100%;
       grid-template-columns: repeat(2, 1fr);
   }
