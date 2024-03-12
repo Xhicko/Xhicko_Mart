@@ -60,6 +60,10 @@ const Electronic = ()=>{
    return(
     <div className="General_Wrapper_Design">
 
+<div className="Product_Message">
+                <h3>Welcome to Electronics Hub...Shop at your desire!</h3>
+            </div>
+
             {error && <Error message={error} />}
 
             {products.length > 0 && (

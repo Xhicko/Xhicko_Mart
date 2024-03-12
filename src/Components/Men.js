@@ -12,6 +12,9 @@ const Men = ()=>{
 
    return(
     <div className="General_Wrapper_Design">
+       <div className="Product_Message">
+                <h3>Welcome to Men's Clothing...Shop at your desire!</h3>
+            </div>
 
     </div>
    )

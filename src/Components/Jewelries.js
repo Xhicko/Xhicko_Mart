@@ -59,6 +59,9 @@ const Jewelries = ()=>{
 
    return(
     <div className="General_Wrapper_Design">
+       <div className="Product_Message">
+                <h3>Welcome to Jewelry Spot...Shop at your desire!</h3>
+            </div>
 
             {error && <Error message={error} />}
 
