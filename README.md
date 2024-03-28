@@ -1,12 +1,15 @@
-# XhiStore
+# XhickoMart
 
-**Welcome to XhiStore - Your Ultimate Shopping Destination!** XhiStore is a versatile React.js application that brings an array of diverse products from the Fake Store API, providing an immersive shopping experience tailored to your preferences.
+**Welcome to XhickoMart - Your Ultimate Shopping Destination!** XhickoMart is a versatile React.js application that brings an array of diverse products from the Fake Store API, providing an immersive shopping experience tailored to your preferences.It is also part of my final  project at ALX To Fininlize my Short Specialization
 
 ## Features
 
 - Browse through a wide-ranging selection of products, each offering unique details and specifications.
 - Detailed product information, including images, descriptions, and additional features, assists in informed decision-making.
+- Carting Functionalities such as , automatic Calculation of all cart Items{Suming}, increment of specific cart item.
 - (Planned feature) Implement filters for refining product searches based on various criteria such as price range, brand, or category.
+- (Planned feature) Authentication System 
+- (Planned feature) Database Integration 
 
 ## Technologies
 
@@ -21,13 +24,13 @@
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/XhiStore.git
+   git clone https://github.com/your-username/XhickoMart.git
    ```
 
 2. Install dependencies:
 
    ```bash
-   cd XhiStore
+   cd XhickoMart
    npm install
    ```
 
@@ -47,4 +50,4 @@
 
 ## Contributing
 
-XhiStore welcomes and appreciates contributions! Fork the repository and submit pull requests to enhance and improve the shopping experience for all users. Your contributions are invaluable in shaping the future of XhiStore.
+XhickoMart welcomes and appreciates contributions! Fork the repository and submit pull requests to enhance and improve the shopping experience for all users. Your contributions are invaluable in shaping the future of XhiStore.

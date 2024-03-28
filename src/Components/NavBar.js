@@ -21,7 +21,7 @@ const NavBar = ({cartItems})=>{
       <div className="Navigation">
          <div className="Navigation_Wrapper">
             <div className="Logo">
-               <h3>Market<span>place.</span></h3>
+               <h3>Xhicko<span>Mart.</span></h3>
             </div>
 
             <ul className={`Naviagtion_List ${showMenu ? "Show" :"" }`}>
